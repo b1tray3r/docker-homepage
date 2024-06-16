@@ -42,9 +42,20 @@
         description: Traggo
         icon: mdi-timetable
         ping: traggo.borgardt.me
-      
 
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+- homelab-prod:
+    - Authelia:
+        href: https://sso.a.borgardt.me/
+        description: SSO
+        icon: si-authelia
+        ping: sso.a.borgardt.me
+    - Docker:
+        href: https://docker.a.borgardt.me/
+        description: Dockge
+        icon: si-docker
+        ping: docker.a.borgardt.me
+    - Traefik:
+        href: https://proxy.a.borgardt.me/
+        description: Traefik
+        icon: mdi-arrow-decision
+        ping: proxy.a.borgardt.me
