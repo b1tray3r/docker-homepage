@@ -1,0 +1,50 @@
+---
+# https://gethomepage.dev/latest/configs/services
+
+- borgardt.me:
+    - Homepage:
+        href: https://alexander.borgardt.me/
+        description: My Blog
+        icon: mdi-post-outline
+        ping: alexander.borgardt.me
+    - Nextcloud:
+        href: https://cloud.borgardt.me/
+        description: My Nextcloud
+        icon: si-nextcloud
+        ping: cloud.borgardt.me
+    - Bitwarden:
+        href: https://vault.borgardt.me/
+        description: Vaultwarden
+        icon: si-bitwarden
+        ping: vault.borgardt.me
+    - Authelia:
+        href: https://sso.borgardt.me/
+        description: SSO
+        icon: si-authelia
+        ping: sso.borgardt.me
+    - Docker:
+        href: https://docker.borgardt.me/
+        description: Dockge
+        icon: si-docker
+        ping: docker.borgardt.me
+    - Ntfy:
+        href: https://notify.borgardt.me/
+        description: Ntfy
+        icon: si-ntfy
+        ping: notify.borgardt.me
+    - Traefik:
+        href: https://proxy.borgardt.me/
+        description: Traefik
+        icon: mdi-arrow-decision
+        ping: proxy.borgardt.me
+    - Traggo:
+        href: https://traggo.borgardt.me/
+        description: Traggo
+        icon: mdi-timetable
+        ping: traggo.borgardt.me
+      
+
+- My Third Group:
+    - My Third Service:
+        href: http://localhost/
+        description: Homepage is 😎
