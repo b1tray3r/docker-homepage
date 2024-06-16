@@ -59,3 +59,13 @@
         description: Traefik
         icon: mdi-arrow-decision
         ping: proxy.a.borgardt.me
+    - Paperless:
+        href: https://docs.a.borgardt.me/
+        description: Paperless
+        icon: si-paperless
+        ping: docs.a.borgardt.me
+    - Prism:
+        href: https://images.a.borgardt.me
+        description: Prism
+        icon: si-prism
+        ping: images.a.borgardt.me
